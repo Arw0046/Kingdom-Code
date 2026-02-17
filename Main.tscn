@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://byxv6i3vd8hf5"]
+
+[ext_resource type="PackedScene" uid="uid://56kfcf5xu6lc" path="res://LevelManager/LevelManager.tscn" id="1_glv2v"]
+[ext_resource type="PackedScene" uid="uid://c72afabqs28gl" path="res://BlockManager/BlockManager.tscn" id="1_uu6xs"]
+
+[node name="Main" type="Node"]
+
+[node name="BlockManager" parent="." instance=ExtResource("1_uu6xs")]
+
+[node name="LevelManager" parent="." instance=ExtResource("1_glv2v")]
